@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.content {
+  padding-top: 70px;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+section h1 {
+  margin: 0;
+}
+
+.nav-link.home-hover:hover {
+  background-color: #ff6347;
+}
+
+.nav-link.about-hover:hover {
+  background-color: #4682b4;
+}
+
+.nav-link.services-hover:hover {
+  background-color: #32cd32;
+}
+
+.nav-link.contact-hover:hover {
+  background-color: #ff1493;
+}
+
+.Welcome {
+  padding-top: 120px;
+  margin: 0px;
+  text-align: center;
+}
